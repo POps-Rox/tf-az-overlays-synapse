@@ -14,8 +14,8 @@ variable "env_generic_map" {
 }
 
 variable "sku" {
-  dedescription = "SKU of the Cognitive Account"
-  default       = "S0"
+  description = "SKU of the Cognitive Account"
+  default     = "S0"
 }
 
 variable "kind" {

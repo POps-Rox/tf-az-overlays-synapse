@@ -8,6 +8,10 @@ terraform {
       source  = "hashicorp/azurerm"
       version = "~> 3.22"
     }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.0"
+    }
     azurenoopsutils = {
       source  = "azurenoops/azurenoopsutils"
       version = "~> 1.0.4"

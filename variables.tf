@@ -78,3 +78,21 @@ variable "virtual_network_name" {
 }
 
 # Add more variables as needed
+
+variable "deploy_synapse" {
+  description = "Whether to deploy the Synapse workspace."
+  type        = bool
+  default     = true
+}
+
+variable "tags" {
+  description = "A map of tags to apply to all resources."
+  type        = map(string)
+  default     = {}
+}
+
+variable "cog_account_custom_name" {
+  description = "Custom name for the Cognitive Account."
+  type        = string
+  default     = null
+}
