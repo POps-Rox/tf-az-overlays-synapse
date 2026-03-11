@@ -40,7 +40,7 @@ provider "azurerm" {
 }
 
 module "mod_app_service" {
-  source  = "azurenoops/overlays-synapse/azurerm"
+  source  = "POps-Rox/tf-az-overlays-synapse/azurerm"
   version = "x.x.x"
 
 }
