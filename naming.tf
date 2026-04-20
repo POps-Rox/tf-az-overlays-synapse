@@ -3,9 +3,9 @@
 
 #------------------------------------------------------------
 # Azure NoOps Naming - This should be used on all resource naming
-# https://registry.terraform.io/providers/azurenoops/azurenoopsutils/latest/docs
+# https://registry.terraform.io/providers/POps-Rox/popsrox-utils/latest/docs
 #------------------------------------------------------------
-data "azurenoopsutils_resource_name" "cognitive_account" {
+data "popsrox_resource_name" "cognitive_account" {
   name          = var.workload_name
   resource_type = "azurerm_cognitive_account"
   prefixes      = [var.org_name, var.use_location_short_name ? module.mod_azregions.location_short : var.location]

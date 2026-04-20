@@ -8,9 +8,9 @@
 
 # Azure Synapse Overlay Terraform Module
 
-[![Changelog](https://img.shields.io/badge/changelog-release-green.svg)](CHANGELOG.md) [![Notice](https://img.shields.io/badge/notice-copyright-yellow.svg)](NOTICE) [![MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE) [![TF Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/azurenoops/overlays-template/azurerm/)
+[![Changelog](https://img.shields.io/badge/changelog-release-green.svg)](CHANGELOG.md) [![Notice](https://img.shields.io/badge/notice-copyright-yellow.svg)](NOTICE) [![MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE) [![TF Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/POps-Rox/overlays-template/azurerm/)
 
-This Overlay terraform module can create a an [Azure Synapse workspace](https://docs.microsoft.com/en-us/azure/synapse/) and manage related components (Key Vault, Storage Accounts, Private Endpoints, etc.) to be used in a [SCCA compliant Network](https://registry.terraform.io/modules/azurenoops/overlays-management-hub/azurerm/latest).
+This Overlay terraform module can create a an [Azure Synapse workspace](https://docs.microsoft.com/en-us/azure/synapse/) and manage related components (Key Vault, Storage Accounts, Private Endpoints, etc.) to be used in a [SCCA compliant Network](https://registry.terraform.io/modules/POps-Rox/overlays-management-hub/azurerm/latest).
 
 ## SCCA Compliance
 
