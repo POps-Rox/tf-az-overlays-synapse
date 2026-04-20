@@ -3,7 +3,7 @@
 
 #------------------------------------------------------------
 # Azure NoOps Naming - This should be used on all resource naming
-# https://registry.terraform.io/providers/POps-Rox/popsrox-utils/latest/docs
+# https://registry.terraform.io/providers/POps-Rox/azutils/latest/docs
 #------------------------------------------------------------
 data "popsrox_resource_name" "cognitive_account" {
   name          = var.workload_name
